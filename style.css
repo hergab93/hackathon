@@ -1,4 +1,3 @@
-/* Estilo para o fundo e fonte */
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -6,8 +5,8 @@ body {
     align-items: center;
     margin: 0;
     padding: 0;
-    background-color: #1a2e40; /* Fundo azul escuro */
-    color: #e0eaf2; /* Texto em azul claro */
+    background-color: #1a2e40; 
+    color: #e0eaf2; 
 }
 
 h1 {
@@ -17,51 +16,47 @@ h1 {
     text-align: center;
 }
 
-/* Estilo para o balão de aviso */
 .alert-box {
-    background-color: #2d4f6d; /* Azul escuro para o fundo do balão */
-    border-radius: 8px; /* Bordas arredondadas */
+    background-color: #2d4f6d;
+    border-radius: 8px; 
     padding: 20px;
     width: 80%;
     margin: 20px 0; /* Espaçamento superior e inferior */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Sombra para destaque */
-    text-align: center; /* Centraliza o texto */
+    text-align: center; 
 }
 
-/* Estilo para o texto explicativo */
 .description {
     font-size: 1.1em;
-    color: #b0c9dc; /* Azul claro para harmonizar com o tema */
+    color: #b0c9dc; 
     line-height: 1.6;
 }
 
-/* Estilo para o mapa */
 #map {
     width: 80%;
     height: 600px;
     margin-top: 20px;
-    border: 2px solid #2d4f6d; /* Borda azul escura */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Sombra para destacar o mapa */
-    border-radius: 8px; /* Bordas arredondadas */
+    border: 2px solid #2d4f6d;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); 
+    border-radius: 8px; 
 }
 
-/* Botões de zoom do Leaflet */
 .leaflet-control-zoom-in,
 .leaflet-control-zoom-out {
-    background-color: #3b5c7a !important; /* Azul médio para os botões */
-    color: #ffffff !important; /* Texto branco para contraste */
+    background-color: #3b5c7a !important;
+    color: #ffffff !important; 
     border: none !important;
 }
 
 .leaflet-popup-content-wrapper {
-    background-color: #2d4f6d; /* Azul escuro no fundo do popup */
-    color: #e0eaf2; /* Texto em azul claro */
+    background-color: #2d4f6d; 
+    color: #e0eaf2; 
     border-radius: 8px;
     border: 1px solid #3b5c7a;
 }
 
 .leaflet-popup-tip {
-    background-color: #2d4f6d; /* Azul escuro para a ponta do popup */
+    background-color: #2d4f6d;
 }
 
 .leaflet-marker-icon {
